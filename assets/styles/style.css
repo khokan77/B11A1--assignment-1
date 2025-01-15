@@ -360,7 +360,7 @@ input[type="email"] {
   background: lightgray;
   margin: 24px 0;
   padding: 28px 5px;
-  background: url('../images/quote-bg.png');
+  background: url('../assets/images/quote-bg.png');
   background-repeat: no-repeat;
 
 }
