@@ -215,7 +215,65 @@ p.future-desc {
 
 .donate {
   height: 464px;
-  background: lightblue;
+  background: lightgray;
   border-radius: 24px;
   margin: 24px 0;
+}
+
+.donate-title{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.donate-desc{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+  
+}
+.card-title{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-content{
+  width: 264px;
+  height: 128px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 24;
+  padding: 40px;
+}
+
+.donate-item-200{
+  background-color: rgb(198, 228, 214)
+}
+
+.donate-input{
+  border: none;
+  margin: 32px 32px;
+  padding: 20px 40px 20px 40px;
+}
+
+.btn-align{
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%; /* Input takes full width */
+  padding: 10px 15px;
+  border: none;
+  text-align: center;
 }
