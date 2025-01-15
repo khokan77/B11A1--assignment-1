@@ -43,7 +43,8 @@ button.banner-text  {
   background: rgb(0, 106, 80);
   color: rgb(255, 255, 255);
   font-size: 18px;
-font-weight: 600;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 button.banner-text:hover {
@@ -275,5 +276,68 @@ input[type="text"] {
   width: 100%; /* Input takes full width */
   padding: 10px 15px;
   border: none;
+  text-align: center;
+}
+
+.subscribe {  
+  height: 395px;
+  background: lightgray;
+  border-radius: 24px;
+  margin: 24px 0;
+  padding: 80px 100px 80px 100px;
+  justify-items: center;
+}
+
+
+input[type="email"] {
+  width: 100%; /* Input takes full width */
+  padding: 20px 0px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.subscribe-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.subscribe-input{
+  border: none;
+  width: 550px;
+  height: 55px;
+  margin-top: 16px;
+}
+
+.subscribe-btn{
+  width: 150px;
+  height: 56px;
+  margin-top: 16px;
+}
+
+.subscribe-tittle{
+  width: 622px;
+  height: 48px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscribe-desc{
+  width: 622px;
+  height: 48px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.subscribe-spam{
+  width: 622px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0px;
   text-align: center;
 }
