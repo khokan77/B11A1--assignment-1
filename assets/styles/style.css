@@ -18,6 +18,7 @@
   padding: 80px 100px 80px 100px;
   border-radius: 24px;
   background: rgb(198, 228, 214);
+  margin: 24px 0;
 }
 
 p.banner-title {
@@ -53,14 +54,14 @@ button.banner-text:hover {
 }
 
 .banner-image {
-          width: 475px;
-          height: 400px;
-      }
+    width: 475px;
+    height: 400px;
+}
 
 
 .future {
   height: 565px;
-  background: lightgrey;
+  background: whitesmoke;
   border-radius: 24px;
   margin: 24px 0;
 }
@@ -111,7 +112,6 @@ p.future-desc {
 
 .future-item-digital{
   background: rgba(84, 144, 245, 0.2);
- 
 }
 
 .future-item-digital-btn{
@@ -121,10 +121,12 @@ p.future-desc {
 
 .future-item-green{
   background-color: rgb(198, 228, 214);
+  
 }
 
 .future-item-green-btn{
-  background: rgb(9, 161, 92)
+  background: rgb(9, 161, 92);
+  
 }
 
 .future-item-modern{
@@ -144,22 +146,28 @@ p.future-desc {
   color: rgb(255, 255, 255);
   margin: 24px 0px;
   margin-top: 72px;
+  cursor: pointer; 
+}
+
+button.future-text:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
 }
 
 .news {
   height: 1000px;
   background: whitesmoke;
   border-radius: 24px;
-  /* margin: 12px 24px; */
 }
 
 .news-title-top{
  font-size: 40px;
  font-weight: 700;
+ margin: 24px 24px; 
 }
 
 .news-title-desc{
- margin-top: 24px;
+  margin: 24px 24px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -189,7 +197,6 @@ p.future-desc {
 
 .news-title {
   padding: 0px;
-  /* margin: 12px 0px;  */
 } 
 
 .news-img{
@@ -209,14 +216,13 @@ p.future-desc {
   flex-direction: row;
   gap: 12px;
   padding: 0px;
-  /* margin-top: 12px; */
 }
 
 
 
 .donate {
   height: 464px;
-  background: lightgray;
+  background: whitesmoke;
   border-radius: 24px;
   margin: 24px 0;
 }
@@ -281,7 +287,7 @@ input[type="text"] {
 
 .subscribe {  
   height: 395px;
-  background: lightgray;
+  background: whitesmoke;
   border-radius: 24px;
   margin: 24px 0;
   padding: 80px 100px 80px 100px;
@@ -340,4 +346,28 @@ input[type="email"] {
   font-weight: 400;
   margin: 24px 0px;
   text-align: center;
+}
+
+.quote {  
+  height: 256px;
+  background: lightgray;
+  margin: 24px 0;
+  padding: 28px 5px;
+  background: url('/assets/images/quote-bg.png');
+  background-repeat: no-repeat;
+
+}
+
+.quote-author{
+  margin-bottom: 4px 0px;
+}
+.quote-desc{
+  width: 1232px;
+  height: 96px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 0px 0px;
+  padding: 0;
+  margin-bottom: 6px;
 }
